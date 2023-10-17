@@ -1,0 +1,420 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0%;
+    padding: 0%;
+    border: 0px;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+/* seccion inicio */
+#inicio{
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(./code-5113374.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+#inicio .contenido header{
+    background-color: rgba(0,0,0,.8);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0px;
+}
+#inicio .contenido header .contenido-header{
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+#inicio .contenido header .contenido-header .seleccionado{
+    color:  rgb(0, 42, 255);
+}
+
+#inicio .contenido header .contenido-header h1{
+    text-align: center;
+    color: black;
+}
+#inicio .contenido header .contenido-header ul{
+    text-align: center;
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+#inicio .contenido header .contenido-header ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 0 12px;
+    font-weight: 400;
+    transition: .5s;
+}
+#inicio .contenido header .contenido-header ul li a:hover{
+    color:  rgb(0, 42, 255);
+}
+#inicio .contenido header .contenido-header .social a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-left: 10px;
+    transition: .5s;
+}
+#inicio .contenido header .contenido-header .social a:hover{
+    color:rgb(0, 42, 255);
+}
+#inicio .contenido .presentation{
+    max-width: 1100;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#inicio .contenido .presentation .welcome{
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+#inicio .contenido .presentation h2{
+    font-size: 40px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+#inicio .contenido .presentation h2 span{
+    font-size: 45px;
+    color: blueviolet;
+}
+#inicio .contenido .presentation .description{
+    max-width: 800px;
+    margin: 25 px auto;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+#inicio .contenido .presentation a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 25px;
+    padding: 15px 20px;
+    border: 2px solid gold;
+    border-radius: 0%;
+    color: gold;
+    transition: .5s;
+}
+#inicio .contenido .presentation a:hover{
+border-color: orangered;
+color: orangered;
+}
+#icono-nav{
+    color: white;
+    display: none;
+}
+
+
+/* seccion about me */
+#aboutme{
+    max-width: 1100px;
+    margin: auto;
+    padding: 100px 15px;
+    display: flex;
+}
+#aboutme .contenedor-foto{
+    max-width: 400px;
+    margin-right: 40px;
+}
+#aboutme .contenedor-foto img{
+    padding: 2px;
+    width: 70%;
+    border-radius: 50px;
+    background-color: white;
+}
+#aboutme .aboutme{
+    margin: 0 40px;
+}
+#aboutme .aboutme .titulo-seccion{
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: seagreen;
+}
+#aboutme .aboutme h3{
+    margin: 20px 0px;
+    letter-spacing: 2px;
+}
+#aboutme .aboutme span{
+    color: blueviolet;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+#aboutme .aboutme a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 25px;
+    padding: 15px 20px;
+    border: 2px solid gold;
+    border-radius: 0%;
+    color: gold;
+    transition: .5s;
+}
+#aboutme .aboutme a:hover{
+    border-color: orangered;
+    color: orangered;
+}
+
+/* seccion services */
+#services{
+    padding: 100px 15px;
+}
+#services #titulo-seccion{
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: seagreen;
+    text-align: center;
+}
+#services #fila{
+    display: block;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 30px auto;
+    text-align: left;
+}
+#services #fila #service{
+    max-width: 550px;
+    background-color: rgba(169, 169, 169, 0.164);
+    padding: 30px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-right: 5px;
+    transition: .5s;
+}
+#services #fila #service:hover{
+    box-shadow: 2px 2px 10px white, -2px -2px 10px white;
+}
+#services #fila #service h4{
+    font-size: 22px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+#services #fila #service #icono{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    padding: 10px;
+    margin: 0 auto;
+    
+}
+#services #fila #service ul{
+    list-style: none;
+}
+
+/* Portfolio section */
+#portfolio{
+    max-width: 1100px;
+    padding: 100px 0;
+    margin: auto;
+}
+#portfolio .titulo-seccion{
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: seagreen;
+    text-decoration-thickness: 2px;
+}
+#portfolio .fila{
+    display: flex;
+    justify-content: space-between;
+    margin: 30 px 0;
+}
+#portfolio .fila .project{
+   max-width: 600px;
+   border: 1px solid white;
+   margin: 0 10px;
+   position: relative;
+   overflow: hidden;
+   
+}
+#portfolio .fila .project img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .5s;
+}
+#portfolio .fila .project .info{
+    position: absolute;
+    left: 0;
+    background-color: black;
+    color: red;
+    width: 100%;
+    padding: 10px;
+    opacity: 0;
+    bottom: -40px;
+    transition: .5s;
+}
+#portfolio .fila .project:hover .info{
+    opacity: 1;
+    bottom: 0;
+}
+
+/* Contact Section */
+#contact{
+    padding: 100px 15px;
+}
+#contact .title-section{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: seagreen;
+    text-decoration-thickness: 2px;
+}
+#contact .contenedor-form{
+    max-width: 1100px;
+    margin: auto;
+}
+#contact .contenedor-form .fila{
+    margin-bottom: 15px; 
+    margin-top: 15px;
+}
+#contact .contenedor-form .fila-mitad{
+    display: block;
+    justify-content: space-between;
+}
+#contact .contenedor-form input,
+#contact .contenedor-form textarea{
+    padding:20px;
+    border-top: 20px;
+    border-radius: 10px;
+    border: 1px solid darkgray;
+}
+#contact .contenedor-form .fila-mitad input{
+    width: 45%;
+}
+#contact .contenedor-form .input-full{
+    width: 96%;
+}
+#contact .btn-send{
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    transition: .5s;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+#contact .btn-send:hover{
+    background-color: rgb(0, 191, 0);
+    color: white;
+}
+
+/* Footer section */
+footer{
+    background-color: darkgray;
+    color: black;
+    text-align: center;
+    padding: 2px 0;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin: 2px;
+    font-size: 26px;
+}
+
+/* seccion responsive */
+@media screen and (max-width: 700px){
+    .social{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+    nav.responsive{
+        display: block;
+        background-color: black;
+        width: 100%;
+        position: absolute;
+        top: 48px;
+        left: 0%;
+        padding: 10px 0;
+    }
+    nav.responsive ul{
+        display: block !important;
+        text-align: center;
+    }
+    nav.responsive ul li{
+        margin: 5px 0;
+    }
+    #icono-nav{
+        display: block;
+    }
+    #inicio .contenido .presentation {
+        margin: auto 10px;
+    }
+    #inicio .contenido .presentation h2{
+        font-size: 40px;
+    }
+    #aboutme{
+        padding: 50px 0;
+        display: block;
+    }
+    #aboutme .contenedor-foto{
+        max-width: 200px;
+        margin: auto;
+    }
+    #aboutme .contenedor-foto img{
+        padding: 8px;
+    }
+    #aboutme .aboutme .title-section{
+        text-align: center;
+    }
+    #aboutme .aboutme h2{
+        font-size: 25px;
+        text-align: center;
+    }
+    #services{
+        padding: 50px 15px;
+
+    }
+    #services #fila{
+        display: block;
+    }
+    #services #fila #service{
+        margin: 10px auto;
+    }
+    #portfolio{
+        padding: 50px 0;
+    }
+    #portfolio .fila{
+        display: block;
+    }
+    #portfolio .fila .project{
+        margin:  10px 10px ;
+    }
+    #contact{
+        margin:  10px 40px 10px 10px
+    }
+    #contact .contenedor-form .fila-mitad{
+        margin-bottom: 15px;
+        display: block;
+    }
+    #contact .contenedor-form .fila-mitad input{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
