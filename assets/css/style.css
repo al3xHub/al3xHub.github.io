@@ -631,6 +631,24 @@ section {
   bottom: 0;
 }
 
+.portfolio .portfolio-wrap .portfolio-description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente */
+  color: white;
+  padding: 30px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 4;
+}
+
+.portfolio .portfolio-wrap:hover .portfolio-description {
+  opacity: 1;
+}
+
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
