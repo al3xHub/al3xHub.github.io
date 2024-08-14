@@ -1,9 +1,9 @@
 const chart_data = {
-    labels:['Python', 'HTML & CSS', 'JavaScript','Java', 'PHP'],
-    data:[40,20,25,10,5]
+    labels:['Python', 'HTML & CSS', 'JavaScript','PHP', 'Java'],
+    data:[35,25,25,10,5]
 }
 const chart_data2 = {
-    labels:['Django', 'Angular', 'Node'],
+    labels:['Django', 'React', 'Node'],
     data:[60,30,10]
 }
 const my_chart = document.querySelector('.my-chart');
